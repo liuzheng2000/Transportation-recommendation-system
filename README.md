@@ -128,6 +128,6 @@ SQL语句位于 Ant-admin-admin包中 下的resources  目录下 （有所不同
 
 查询结果如下
 
-![http://47.98.63.67:88/group1/M00/00/00/L2I_Q18niKuANgW1AAWFPuFTUL0546.png](G:\JAVA文档\图片地址\L2I_Q18niKuANgW1AAWFPuFTUL0546.png)
+![http://47.98.63.67:88/group1/M00/00/00/L2I_Q18niKuANgW1AAWFPuFTUL0546.png](http://47.98.63.67:88/group1/M00/00/00/L2I_Q18nilyAKLZ9AAWFPuFTUL0555.png)
 
 此类的返回值不固定根据  查询参数返回
