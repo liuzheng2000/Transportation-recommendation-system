@@ -25,7 +25,6 @@ import java.util.List;
 @RestController
 @RequestMapping("Attraction")
 @Api(tags = "景点")
-//aaa
 public class AttractionController {
 
     @Autowired
