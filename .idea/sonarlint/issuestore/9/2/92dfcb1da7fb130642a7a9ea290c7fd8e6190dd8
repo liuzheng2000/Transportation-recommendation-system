@@ -1,0 +1,8 @@
+
+†	java:S116"jRename this field "DepartureStationNameLocationLng" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(κ”Δ8φ Ί.
+‚	java:S116""gRename this field "ArriveStationNameLocationLng" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ΩµC8Ύλ Ί.
+€	java:S116"_Rename this field "DepartureStationName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿήβϊÿÿÿÿ8Π§ Ί.
+	java:S116"gRename this field "ArriveStationNameLocationLat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ψ¬Ήϊÿÿÿÿ8¨Μ Ί.
+‹	java:S116"jRename this field "DepartureStationNameLocationLat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Μ”¥Ήÿÿÿÿÿ8ΏΘ Ί.
+r	java:S116"VRename this field "JourneyName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΆΙΥ8ά† Ί.
+}	java:S116"\Rename this field "ArriveStationName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(φαϊÿÿÿÿ8φ΅ Ί.

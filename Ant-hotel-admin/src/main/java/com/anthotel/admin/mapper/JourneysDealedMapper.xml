@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anthotel.admin.mapper.JourneysDealedMapper">
+
+  <resultMap id="BaseResultMap" type="com.anthotel.admin.entity.ReturnRecommendRoute">
+    <result column="journeyName" jdbcType="VARCHAR" property="journeyName" />
+    <result column="departureStationName" jdbcType="VARCHAR" property="departureStationName" />
+    <result column="departureStationNameLocationLat" jdbcType="REAL" property="departureStationNameLocationLat" />
+    <result column="departureStationNameLocationLng" jdbcType="REAL" property="departureStationNameLocationLng" />
+    <result column="arriveStationName" jdbcType="VARCHAR" property="arriveStationName" />
+    <result column="arriveStationNameLocationLat" jdbcType="REAL" property="arriveStationNameLocationLat" />
+    <result column="arriveStationNameLocationLng" jdbcType="REAL" property="arriveStationNameLocationLng" />
+    <result column="recommad" jdbcType="REAL" property="recommad" />
+    <result column="theprice" jdbcType="REAL" property="thePrice" />
+  </resultMap>
+
+    <select id="queryJourneysDealedListByrecommand" resultMap="BaseResultMap" parameterType="com.anthotel.admin.entity.TrainQuery">
+    SELECT
+      <if test="recommand1 != null">
+    j.recommand1
+      </if>
+      <if test="recommand2 != null">
+    + j.recommand2
+      </if>
+      <if test="recommand3 != null">
+    + j.recommand3
+      </if>
+      <if test="recommand4 != null">
+    + j.recommand4
+      </if>
+      <if test="recommand5 != null">
+    + j.recommand5
+      </if>
+      <if test="recommand1 != null  || recommand2 != null || recommand3 != null || recommand4 != null || recommand5 != null ">
+      as recommad,
+      </if>
+    j.journey_name as journeyName ,
+    j.departure_station_name as departureStationName,
+    t1.location_lat as departureStationNameLocationLat,
+    t1.location_lng as departureStationNameLocationLng,
+    j.arrive_station_name as arriveStationName,
+    t2.location_lat as arriveStationNameLocationLat,
+    t2.location_lng as arriveStationNameLocationLng from
+    journeys_dealed j LEFT JOIN  train_station t1 ON j.departure_station_name = t1.`name`
+     LEFT JOIN train_station t2 ON j.arrive_station_name = t2.`name`
+     <where >
+       <if test="StartAndEndCity != null">
+         and  j.journey_name = #{StartAndEndCity}
+       </if>
+
+      <if test="StartTrainstation != null">
+        and  j.departure_station_name = #{StartTrainstation}
+      </if>
+
+      <if test="EndTrainstation != null">
+        and  j.arrive_station_name = #{EndTrainstation}
+      </if>
+    </where>
+      <if test="recommand1 != null  || recommand2 != null || recommand3 != null || recommand4 != null || recommand5 != null ">
+      ORDER BY recommad DESC
+      </if>
+    </select>
+
+  <select id="queryJourneysDealedListByPrice" resultMap="BaseResultMap" resultType="com.anthotel.admin.entity.ReturnRecommendRoute">
+    SELECT
+    j.The_price as theprice ,
+    j.journey_name as journeyName ,
+    j.departure_station_name as departureStationName,
+    t1.location_lat as departureStationNameLocationLat,
+    t1.location_lng as departureStationNameLocationLng,
+    j.arrive_station_name as arriveStationName,
+    t2.location_lat as arriveStationNameLocationLat,
+    t2.location_lng as arriveStationNameLocationLng from
+    journeys_dealed j LEFT JOIN  train_station t1 ON j.departure_station_name = t1.`name`
+    LEFT JOIN train_station t2 ON j.arrive_station_name = t2.`name`
+    <where >
+      <if test="StartAndEndCity != null">
+        and  j.journey_name = #{StartAndEndCity}
+      </if>
+
+      <if test="StartTrainstation != null">
+        and  j.departure_station_name = #{StartTrainstation}
+      </if>
+
+      <if test="EndTrainstation != null">
+        and  j.arrive_station_name = #{EndTrainstation}
+      </if>
+    </where>
+    ORDER BY theprice
+
+  </select>
+
+</mapper>

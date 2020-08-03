@@ -1,0 +1,32 @@
+
+d
+java:S2095H"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(©º˜›
+`
+java:S1124%"EReorder the modifiers to comply with the Java Language Specification.(ÄÂªıÿÿÿÿ
+\	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(ÑÚÀ£
+G
+java:S1153Y"1Directly append the argument of String.valueOf().(­³ÿó
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ÉÊ¤Ó
+\
+java:S1075E"ARefactor your code to get this URI from a customizable parameter.(ÃÓ œıÿÿÿÿ
+V
+java:S1075F"ARefactor your code to get this URI from a customizable parameter.(‘¦H
+d
+java:S3252®"MUse static access with "cn.hutool.core.collection.CollUtil" for "isNotEmpty".(·Ÿ²Ã
+r
+java:S4144œ"[Update this method so that its implementation is not identical to "faceSearch" on line 102.(ÑÚÀ£
+S
+java:S2589Ô"7Remove this expression which always evaluates to "true"(¦·úÓøÿÿÿÿ
+d
+java:S3252³"MUse static access with "cn.hutool.core.collection.CollUtil" for "isNotEmpty".(ÔÁÇÖ
+d
+java:S2095G"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(“ä¢Ü
+c
+java:S3252x"MUse static access with "cn.hutool.core.collection.CollUtil" for "isNotEmpty".(·Ÿ²Ã
+`	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(ãÒÆ†ıÿÿÿÿ
+c
+java:S3252}"MUse static access with "cn.hutool.core.collection.CollUtil" for "isNotEmpty".(ÔÁÇÖ
+€
+java:S1488×"dImmediately return this expression instead of assigning it to the temporary variable "faceInfoList".(²³†ûÿÿÿÿ
+L
+java:S1153U"1Directly append the argument of String.valueOf().(¹¶ ­üÿÿÿÿ

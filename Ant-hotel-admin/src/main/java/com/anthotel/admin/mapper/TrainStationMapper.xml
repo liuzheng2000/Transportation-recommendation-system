@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anthotel.admin.mapper.TrainStationMapper">
+  <resultMap id="BaseResultMap" type="com.anthotel.admin.dto.TrainStation">
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="overall_rating" jdbcType="VARCHAR" property="overallRating" />
+    <result column="location_lat" jdbcType="REAL" property="locationLat" />
+    <result column="location_lng" jdbcType="REAL" property="locationLng" />
+    <result column="navi_location_lat" jdbcType="REAL" property="naviLocationLat" />
+    <result column="navi_location_lng" jdbcType="REAL" property="naviLocationLng" />
+  </resultMap>
+
+
+  <resultMap id="TrainStationResultMap" type="com.anthotel.admin.dto.TrainStation">
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+  </resultMap>
+
+
+  <insert id="insert" parameterType="com.anthotel.admin.dto.TrainStation">
+    insert into train_station (name, province, city, 
+      area, address, tag, 
+      type, overall_rating, location_lat, 
+      location_lng, navi_location_lat, navi_location_lng
+      )
+    values (#{name,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, 
+      #{area,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{tag,jdbcType=VARCHAR}, 
+      #{type,jdbcType=VARCHAR}, #{overallRating,jdbcType=VARCHAR}, #{locationLat,jdbcType=REAL}, 
+      #{locationLng,jdbcType=REAL}, #{naviLocationLat,jdbcType=REAL}, #{naviLocationLng,jdbcType=REAL}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.anthotel.admin.dto.TrainStation">
+    insert into train_station
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        name,
+      </if>
+      <if test="province != null">
+        province,
+      </if>
+      <if test="city != null">
+        city,
+      </if>
+      <if test="area != null">
+        area,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="tag != null">
+        tag,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="overallRating != null">
+        overall_rating,
+      </if>
+      <if test="locationLat != null">
+        location_lat,
+      </if>
+      <if test="locationLng != null">
+        location_lng,
+      </if>
+      <if test="naviLocationLat != null">
+        navi_location_lat,
+      </if>
+      <if test="naviLocationLng != null">
+        navi_location_lng,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null">
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null">
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="tag != null">
+        #{tag,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="overallRating != null">
+        #{overallRating,jdbcType=VARCHAR},
+      </if>
+      <if test="locationLat != null">
+        #{locationLat,jdbcType=REAL},
+      </if>
+      <if test="locationLng != null">
+        #{locationLng,jdbcType=REAL},
+      </if>
+      <if test="naviLocationLat != null">
+        #{naviLocationLat,jdbcType=REAL},
+      </if>
+      <if test="naviLocationLng != null">
+        #{naviLocationLng,jdbcType=REAL},
+      </if>
+    </trim>
+  </insert>
+
+
+    <select id="queryListTrainStation" resultMap="TrainStationResultMap" parameterType="com.anthotel.admin.entity.QueryTrainStation">
+        select name , province, city , area , address from train_station
+      <where >
+        <if test="name != null">
+          and  name = #{name}
+        </if>
+
+        <if test="province != null">
+          and province = #{province}
+        </if>
+
+        <if test="city != null">
+          and city = #{city}
+        </if>
+
+        <if test="area != null">
+          and area = #{area}
+        </if>
+      </where>
+
+
+    </select>
+</mapper>

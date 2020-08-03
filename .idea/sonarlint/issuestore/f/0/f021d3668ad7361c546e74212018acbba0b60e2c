@@ -1,0 +1,9 @@
+
+^
+java:S1128"<Remove this unused import 'java.lang.annotation.Annotation'.(¦Ÿàáûÿÿÿÿ8ÀÃê×¸.
+L
+java:S3740:"/Provide the parametrized type for this generic.(´™Ûø8Âöó×¸.
+v
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ğİàş8Ê†õØ¸.
+j
+java:S1192#"MDefine a constant instead of duplicating this literal "Access-Token" 4 times.(©İ›Ö8¢ÅùØ¸.

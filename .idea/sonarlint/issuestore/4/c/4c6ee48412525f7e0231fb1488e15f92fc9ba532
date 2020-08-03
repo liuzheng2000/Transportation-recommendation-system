@@ -1,0 +1,4 @@
+
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(—š±
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ¤ÑÛ

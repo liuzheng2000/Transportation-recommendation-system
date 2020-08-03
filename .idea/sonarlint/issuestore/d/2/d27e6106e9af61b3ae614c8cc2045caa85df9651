@@ -1,0 +1,45 @@
+
+r
+java:S1104"WMake FORMAT_LONG a static final constant or non-public and provide accessors if needed.(Ñ™ƒ¨øÿÿÿÿ
+q
+java:S1104"[Make FORMAT_SHORT_CN a static final constant or non-public and provide accessors if needed.(í„é½
+o
+java:S3008'"YRename this field "FORMAT_FULL_CN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞØ¼°
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(¼îéùÿÿÿÿ
+u
+java:S1104#"ZMake FORMAT_LONG_CN a static final constant or non-public and provide accessors if needed.(Í¼ş±ÿÿÿÿÿ
+L
+java:S1444"1Make this "public static FORMAT_LONG" field final(Ñ™ƒ¨øÿÿÿÿ
+F
+java:S1444"1Make this "public static FORMAT_FULL" field final(˜ø´
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(œùÆŸùÿÿÿÿ
+M
+java:S1444"2Make this "public static FORMAT_SHORT" field final(¹‚œîşÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(¡µ
+J
+java:S1444'"4Make this "public static FORMAT_FULL_CN" field final(ĞØ¼°
+p
+java:S1104'"ZMake FORMAT_FULL_CN a static final constant or non-public and provide accessors if needed.(ĞØ¼°
+s
+java:S1104"XMake FORMAT_SHORT a static final constant or non-public and provide accessors if needed.(¹‚œîşÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(´¦¥Ìøÿÿÿÿ
+l
+java:S1104"WMake FORMAT_FULL a static final constant or non-public and provide accessors if needed.(˜ø´
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(©íöÂÿÿÿÿÿ
+M	java:S1061"9Replace this use of System.out or System.err by a logger.(èÙÕ
+r
+java:S3008"WRename this field "FORMAT_SHORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‚œîşÿÿÿÿ
+K
+java:S1444"5Make this "public static FORMAT_SHORT_CN" field final(í„é½
+q
+java:S3008"VRename this field "FORMAT_LONG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ™ƒ¨øÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(¸Á³µ
+p
+java:S3008"ZRename this field "FORMAT_SHORT_CN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í„é½
+O
+java:S1444#"4Make this "public static FORMAT_LONG_CN" field final(Í¼ş±ÿÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ÇŠ¸íøÿÿÿÿ
+t
+java:S3008#"YRename this field "FORMAT_LONG_CN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¼ş±ÿÿÿÿÿ
+k
+java:S3008"VRename this field "FORMAT_FULL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ø´

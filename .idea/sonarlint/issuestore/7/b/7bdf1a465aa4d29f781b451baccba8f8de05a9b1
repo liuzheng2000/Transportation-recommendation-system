@@ -1,0 +1,67 @@
+
+I
+java:S1168"+Return an empty collection instead of null.(¥¹ï8Š›ÃÖ·.
+F
+java:S1148ç"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+E
+java:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148·"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148‹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+c	java:S112¹"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ½”8Š›ÃÖ·.
+q
+java:S1128"TRemove this unused import 'org.springframework.data.redis.core.StringRedisTemplate'.(Á•½8Š›ÃÖ·.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Ø"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+{
+java:S1488‰"]Immediately return this expression instead of assigning it to the temporary variable "count".(ıÿî¢8Š›ÃÖ·.
+E
+java:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148ğ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+
+java:S1488˜"^Immediately return this expression instead of assigning it to the temporary variable "remove".(²ĞÉàıÿÿÿÿ8Š›ÃÖ·.
+E
+java:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+b	java:S112­"FDefine and throw a dedicated exception instead of using a generic one.(ÄÊĞ88Š›ÃÖ·.
+F
+java:S1148Ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+I
+java:S1168Ã"+Return an empty collection instead of null.(¥¹ï8Š›ÃÖ·.
+F
+java:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8Š›ÃÖ·.
+F
+java:S1148ì"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Ğ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148‹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148û"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148ı"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148Ù"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+F
+java:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.
+E
+java:S1148w"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š›ÃÖ·.

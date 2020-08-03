@@ -1,0 +1,8 @@
+
+j	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¼ı²8™ÔÔº.
+b
+java:S1128	"@Remove this unused import 'com.anthotel.common.utils.CglibBean'.(†‡Åıÿÿÿÿ8×¢ï¹.
+_
+java:S1128"=Remove this unused import 'com.anthotel.admin.dto.PlaceBase'.(›•‚Èıÿÿÿÿ8®—ŒÚ¹.
+7
+java:S3751#"Make this method "public".(Ä¼ı²8á…ù€¹.

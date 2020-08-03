@@ -1,0 +1,15 @@
+
+Z
+java:S2147Y"DCombine this catch with the one at line 85, which has the same body.(”ı¾
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(—øÛÖ
+v
+java:S1488j"[Immediately return this expression instead of assigning it to the temporary variable "key".(û½›ÿÿÿÿÿ
+b
+java:S1871F"LThis branch's code block is the same as the block for the branch on line 67.(±—·»
+Q	java:S125"<This block of commented-out lines of code should be removed.(‚Ûõ—
+b
+java:S1871I"LThis branch's code block is the same as the block for the branch on line 67.(¶€ñ§
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Š¦ûÂ
+Q	java:S125 "<This block of commented-out lines of code should be removed.(ì¿ë§

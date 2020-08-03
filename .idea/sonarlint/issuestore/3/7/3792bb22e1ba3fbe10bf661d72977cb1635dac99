@@ -1,0 +1,7 @@
+
+[
+java:S1128">Remove this unused import 'com.anthotel.admin.dto.Attraction'.(»íáì8õäÔü¹.
+d
+java:S1128"GRemove this unused import 'com.anthotel.admin.mapper.AttractionMapper'.(÷Î’ğ8İÜÓü¹.
+~
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "hospitals".(¨¢© 8è«‰ı¹.

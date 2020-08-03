@@ -1,0 +1,6 @@
+
+v	java:S116"ZRename this field "EndTrainstation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÖœÐ8¼˜ÎÊ¸.
+p	java:S116"TRename this field "StartCity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â­Å¤8ì¢ëÕº.
+}	java:S116"\Rename this field "StartTrainstation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÿ±¶ûÿÿÿÿ8¼˜ÎÊ¸.
+v	java:S116"ZRename this field "StartAndEndCity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‡˜Ä8†ºÄÐ¸.
+s	java:S116"RRename this field "EndCity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¹ï×øÿÿÿÿ8ÛáëÕº.

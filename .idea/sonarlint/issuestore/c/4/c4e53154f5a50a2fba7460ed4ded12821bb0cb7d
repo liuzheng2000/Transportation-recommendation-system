@@ -1,0 +1,16 @@
+
+—
+java:S1186D"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã’
+>
+java:S1148X"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'com.anthotel.common.utils.RedisUtil'.(œî¦øÿÿÿÿ
+E
+java:S3740N"/Provide the parametrized type for this generic.(®èä¡
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡¿’y
+E
+java:S3740'"/Provide the parametrized type for this generic.(î¯½
+n
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ
+—
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨ûşñ

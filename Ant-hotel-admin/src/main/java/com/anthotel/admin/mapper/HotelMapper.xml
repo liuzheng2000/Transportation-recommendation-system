@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anthotel.admin.mapper.HotelMapper">
+
+  <resultMap id="BaseResultMap" type="com.anthotel.admin.dto.Hotel">
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="location_lat" jdbcType="REAL" property="locationLat" />
+    <result column="location_lng" jdbcType="REAL" property="locationLng" />
+    <result column="price" jdbcType="REAL" property="price" />
+    <result column="recommends" jdbcType="REAL" property="recommends" />
+  </resultMap>
+
+    <select id="queryHotelListByPrice" resultMap="BaseResultMap" parameterType="com.anthotel.admin.entity.QueryIndustry">
+      select  name , province ,city , area , address , location_lat , location_lng , price   from  hotel
+      <where >
+        <if test="ScenicAreaProvince != null">
+          and  province = #{ScenicAreaProvince}
+        </if>
+
+        <if test="ScenicAreaCity != null">
+          and city = #{ScenicAreaCity}
+        </if>
+
+        <if test="ScenicAreaArea != null">
+          and area = #{ScenicAreaArea}
+        </if>
+        <if test="price != null">
+          ORDER BY price asc
+        </if>
+      </where>
+    </select>
+
+  <select id="queryHotelListByRecommends" resultMap="BaseResultMap" parameterType="com.anthotel.admin.entity.QueryIndustry">
+    select
+    <if test="recommend1 != null">
+      recommend1
+    </if>
+    <if test="recommend2 != null">
+      + recommend2
+    </if>
+    <if test="recommend1 != null  || recommend2 != null  ">
+      as recommends,
+    </if>
+    name , province ,city , area , address , location_lat , location_lng from  hotel
+
+    <where >
+      <if test="ScenicAreaProvince != null">
+        and  province = #{ScenicAreaProvince}
+      </if>
+
+      <if test="ScenicAreaCity != null">
+        and city = #{ScenicAreaCity}
+      </if>
+
+      <if test="ScenicAreaArea != null">
+        and area = #{ScenicAreaArea}
+      </if>
+    </where>
+    <if test="recommend1 != null  || recommend2 != null ">
+      ORDER BY recommends DESC
+    </if>
+  </select>
+
+</mapper>
